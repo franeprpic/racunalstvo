@@ -25,7 +25,8 @@ int main() {
 	vector<int> drugi;
 	drugi.push_back(11);
 	drugi.push_back(38);
-	if (prvi.size()!=drugi.size()) {
+	drugi.push_back(43);
+	if (prvi!=drugi) {
 		cout<<"Stari vektor nije jednak novom vektoru!";
 	}
 	else {
@@ -36,7 +37,7 @@ int main() {
 	
 	prvi=drugi;
 	
-	if(prvi.size()!=drugi.size()) {
+	if(prvi!=drugi) {
 		cout<<"Stari vektori nije jedan novom vektoru!";
 	}
 	else {
@@ -48,4 +49,3 @@ int main() {
 	system("pause");
 	return 0;
 }
-
